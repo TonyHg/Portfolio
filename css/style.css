@@ -1,4 +1,15 @@
-/* index */
+/* Color scheme:
+Black: #1F2833
+Dark grey: #323F4B
+Grey: #3F4C59
+Light grey: #53606D
+
+Dark white: #CCD3D9
+White: #E4E7EB
+Light white: #F5F7FA
+*/
+
+/* Landpage */
 @keyframes float {
     0% {
         transform: translatey(0px);
@@ -11,6 +22,10 @@
     100% {
         transform: translatey(0px);
     }
+}
+
+body{
+    color: #323F4B;
 }
 
 
@@ -80,13 +95,47 @@ a:hover{
 }
 
 #title{
-    margin-bottom: 150px;
     margin-top: 100px;
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 20%;
 }
 
 #title img{
     width: 100%;
     z-index: 0;
+}
+
+#intro{
+    font-family: proxima-nova,sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+#outro{
+    text-align: right;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+}
+
+#social-icon-container{
+    align-self: center;
+    box-shadow: 0px 10px 20px -7px #53606D;
+    padding: 20% 15%;
+    border-radius: 10px;
+}
+
+.social-icon a{
+    color: #3F4C59;
+}
+
+.social-icon i:hover{
+    color:rgb(6,121,191);
+}
+
+.social-icon {
+    font-size: 24px;
 }
 
 #profile-photo{
@@ -124,13 +173,15 @@ a:hover{
 
 #profile{
     font-size: 24px;
+    align-self: center;
 }
-#profile span{
-    color:rgb(6,121,191) ;
+
+#profile span, #intro span, #outro span{
+    color:rgb(6,121,191);
 }
 
 #buttons{
-    margin-top: 50px;
+    margin-top: 20px;
     justify-content: center;
     font-size: 20px;
 }
@@ -164,6 +215,7 @@ a:hover{
 
 .project{
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .project-text{
