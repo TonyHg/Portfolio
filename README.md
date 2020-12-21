@@ -1,4 +1,4 @@
-# Portofolio
+# Portfolio
 My name is Tony and this is my portfolio
 
 # Usage
