@@ -23,7 +23,7 @@
     </head>
     <body>
         <nav class="col navbar navbar-expand">
-            <a class="navbar-brand" href="index.html">Tony Heng</a>
+            <a class="navbar-brand" href="#">Tony Heng</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,7 +78,12 @@
                                 <i class="fa fa-instagram"> </i>
                             </a>
                         </div>
-                        
+                        <div class="social-icon">
+                            <p class="d-none" id="email">tony.heng@epita.fr</p>
+                            <a id="email-icon" class="ins-ic" href="#" onclick="copyToClipboard('#email')" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Email copied!">
+                                <i class="fa fa-at"> </i>
+                            </a>
+                        </div>
                     
                     </div>
                 </div>
@@ -91,7 +96,7 @@
                         <div id="profile">
 
                             Fond of computer sciences and new technologies, I am a ambitious and tenacious person who likes to succeed.</br>
-                            Currently student at <span>EPITA : Ecole d'Ingénieur en Informatique</span>, an engineering school based in Paris.</br>
+                            Currently 3rd year student at <span>EPITA : Ecole d'Ingénieur en Informatique</span>, an engineering school based in Paris.</br>
                             I am looking for an intership in <span>software engineering</span> or <span>web developpement</span>.</br></br>
 
                             You can see my resume by clicking the button below.</br>
@@ -240,6 +245,62 @@
                         </div>
                     </div>
             </div>
+            <div class="container pb-5">
+                <div class="row title mb-5" id="project">
+                    SMALL PROJECTS
+                </div>
+                <div class="row small-project mb-5">
+                    <div class="col-2">
+                        <div class="small-project-icon d-flex">
+                            <img src="../asset/img/miniproject.png"/>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="small-project-title mb-2"><span class="title-bg"><a href="https://seraphin.legal/seraphin-contract-management/" target="_blank">Libstream, Minimake, Myfind, Mymalloc</a></span><span class="small-project-date">November 2020</span></div>
+                        
+                        <div class="small-project-language mb-3"><span class="title-bg color2">C</span></div>
+                        <div class="small-project-description">
+                            Development of four weekly projects in C.<br>
+                            Libstream: implementation of a stream library.<br>
+                            Minimake: reimplementation of the Unix make command.<br>
+                            MyFind: reimplementation of the Unix Find command.<br>
+                            MyMalloc: reimplementation of the malloc command of the C language (Using mmap). <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row small-project mb-5">
+                    <div class="col-2">
+                        <div class="small-project-icon d-flex">
+                            <img src="../asset/img/SCM2.svg"/>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="small-project-title mb-2"><span class="title-bg"><a href="https://seraphin.legal/seraphin-contract-management/" target="_blank">Séraphin Contract Management</a></span><span class="small-project-date">August 2020</span></div>
+                        
+                        <div class="small-project-language mb-3"><span class="title-bg color1">.NET</span><span class="title-bg color4">JavaScript</span><span class="title-bg color5">Aspose</span></div>
+                        <div class="small-project-description">
+                            SCM is an optimized contract negotiation solution.<br>
+                            Given tasks: convert an pdf into an editable HTML text, some front end integration.
+                        </div>
+                    </div>
+                </div>
+                <div class="row small-project mb-5">
+                    <div class="col-2">
+                        <div class="small-project-icon d-flex">
+                            <img src="../asset/img/SimonDrive.png"/>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="small-project-title mb-2"><span class="title-bg"><a href="" target="_blank">Simon Drive</a></span><span class="small-project-date">August 2020</span></div>
+                        
+                        <div class="small-project-language mb-3"><span class="title-bg color1">HTML</span><span class="title-bg color2">CSS</span><span class="title-bg color3">.NET</span><span class="title-bg color4">JavaScript</span><span class="title-bg color5">SSMS</span><span class="title-bg color6">AJAX</span></div>
+                        <div class="small-project-description">
+                            SCM is an optimized contract negotiation solution.<br>
+                            Given tasks: convert an pdf into an editable HTML text, some front end integration.
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 pb-5">
                     <h1 id="outro" class="pb-5">
@@ -299,9 +360,10 @@
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="../js/index.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="..//js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 350) {

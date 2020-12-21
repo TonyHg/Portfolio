@@ -7,9 +7,20 @@ Light grey: #53606D
 Dark white: #CCD3D9
 White: #E4E7EB
 Light white: #F5F7FA
+
+Blue: #0679bf
+Dark blue: #446AAF
+Purple: #6C61A4
+Light purple: #92589A
+Dark pink: #B44F91
+Pink: #CE498A
 */
 
 /* Landpage */
+html {
+    scroll-behavior: smooth;
+  }
+
 @keyframes float {
     0% {
         transform: translatey(0px);
@@ -136,6 +147,10 @@ a:hover{
 
 .social-icon {
     font-size: 24px;
+}
+
+#email-pop{
+    display: none;
 }
 
 #profile-photo{
@@ -324,6 +339,59 @@ a:hover{
     position: relative;
     right: 300px;
     top:-50px
+}
+
+.small-project-icon {
+    height: 100%;
+}
+
+.small-project-icon img{
+    margin: 0 auto;
+    align-self: baseline;
+    max-width: 80%;
+}
+
+.title-bg{
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-right: 5px;
+    background-color: #E4E7EB;
+}
+
+.title-bg.color1{
+    color: white;
+    background-color:#0679bf;
+}
+.title-bg.color2{
+    color: white;
+    background-color:#446AAF;
+}
+.title-bg.color3{
+    color: white;
+    background-color:#6C61A4;
+}
+.title-bg.color4{
+    color: white;
+    background-color:#92589A;
+}
+.title-bg.color5{
+    color: white;
+    background-color:#B44F91;
+}
+.title-bg.color6{
+    color: white;
+    background-color:#CE498A;
+}
+
+.small-project-title a{
+    color:#3F4C59;
+}
+
+.small-project-date{
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 footer{
