@@ -1,5 +1,5 @@
 # Portfolio
-My name is Tony and this is my portfolio
+My name is Tony and this is my portfolio.
 
 # Usage
-Go to (will be added later)
+Go to `https://tonyhg.github.io/Portfolio/html/index.html`
