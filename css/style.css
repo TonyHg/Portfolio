@@ -112,6 +112,11 @@ a:hover{
     margin: 5px;
 }
 
+.main-container{
+    overflow: hidden;
+    padding: 0 10%;
+}
+
 #title{
     margin-top: 100px;
     height: 100vh;
