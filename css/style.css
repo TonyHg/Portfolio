@@ -72,8 +72,9 @@ a:hover{
 }
 
 .navbar-brand{
+    font-family: proxima-nova,sans-serif;
     margin-left: 50px;
-    background: linear-gradient(90deg, rgba(6,121,191,1) 0%, rgba(206,73,138,1) 100%);
+    background: rgb(6,121,191);/*linear-gradient(90deg, rgba(6,121,191,1) 0%, rgba(206,73,138,1) 100%);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
@@ -243,6 +244,14 @@ a:hover{
     letter-spacing: 6px;
     width: 100%
 }
+    #sh42 .project-title{
+        color: #207EB7;
+    }
+
+    #ocr .project-title{
+        color: #7D59A4;
+    }
+
     #registre-general .project-title {
         color: #74c588;
     }
@@ -299,6 +308,20 @@ a:hover{
     box-shadow: 0px 20px 20px -12px #74c588a2;
 }
 
+#sh42-btn {
+    background-color: #207EB7;
+}
+    #sh42-btn:hover {
+        box-shadow: 0px 20px 20px -12px #2388c7b2;
+    }
+
+#ocr-btn {
+    background-color: #7D59A4;
+}
+    #ocr-btn:hover {
+        box-shadow: 0px 20px 20px -12px #8760b1b6;
+    }
+
 #uprising-btn {
     background-color: #b92E34;
 }
@@ -320,9 +343,21 @@ a:hover{
     top: -40px;
 }
 
-#registre-general .project-text, #time-is-monet .project-text{
+#registre-general .project-text, #time-is-monet .project-text, #sh42 .project-text{
     position: relative;
     left: 60px;
+}
+
+#sh42-img{
+    position: relative;
+    right: 170px;
+    top:-30px
+}
+
+#ocr-img{
+    position: relative;
+    left: 100px;
+    top:-30px
 }
 
 #uprising-img{
@@ -330,7 +365,7 @@ a:hover{
     left: 60px;
 }
 
-#uprising .project-text{
+#uprising .project-text, #ocr .project-text{
     position: relative;
     right: 60px;
 }
