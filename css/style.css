@@ -16,6 +16,12 @@ Dark pink: #B44F91
 Pink: #CE498A
 */
 
+@font-face {
+    font-family: "Rolest";
+    src: url("../asset/font/Rolest.ttf") format("truetype"),
+           url("../asset/font/Rolest.otf") format("opentype");
+   }
+
 /* Landpage */
 html {
     scroll-behavior: smooth;
@@ -123,6 +129,10 @@ a:hover{
     font-size: 60px;
     font-weight: 700;
     align-self: flex-end;
+}
+#design{
+    font-family: "Rolest";
+    font-size: 70px;
 }
 
 #outro{
