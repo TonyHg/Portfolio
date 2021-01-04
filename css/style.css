@@ -570,6 +570,20 @@ footer a:hover{
         font-size: 36px;
         align-self: baseline;
     }
+    #registre-general .project-text, #time-is-monet .project-text, #sh42 .project-text {
+        position: relative;
+        left: 0px;
+    }
+    #uprising .project-text, #ocr .project-text {
+        position: relative;
+        right: 0px;
+    }
+    .hide {
+        display: none!important;
+    }
+    .navbar-brand {
+        margin: auto;
+    }
 }
 
 /* Medium devices (tablets, 992px and up) */
