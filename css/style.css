@@ -584,6 +584,12 @@ footer a:hover{
     .navbar-brand {
         margin: auto;
     }
+    #outro {
+        font-size: 36px;
+    }
+    #design {
+        font-size: 50px;
+    }
 }
 
 /* Medium devices (tablets, 992px and up) */
