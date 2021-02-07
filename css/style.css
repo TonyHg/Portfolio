@@ -433,6 +433,16 @@ a:hover{
     background-color:#CE498A;
 }
 
+.title-bg.color7{
+    color: white;
+    background-color:#3DDC84;
+}
+
+.title-bg.color8{
+    color: white;
+    background-color:#eb4034;
+}
+
 .small-project-title a{
     color:#3F4C59;
 }
