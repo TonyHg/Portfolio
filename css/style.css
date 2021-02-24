@@ -66,6 +66,19 @@ a:hover{
     color: rgb(240, 240, 240);
 }
 
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  height: 5px;
+  display: block;
+}
+.progress-bar {
+  background-color: #0679bf;
+  width: 0%;
+  display: block;
+  height: inherit;
+}
+
 .navbar{
     position: fixed;
     transition: all 0.45s ease-out;

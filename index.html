@@ -26,6 +26,9 @@
 
     </head>
     <body>
+        <div class="progress-container fixed-bottom">
+            <span class="progress-bar"></span>
+        </div>
         <nav class="col navbar navbar-expand">
             <a class="navbar-brand" href="#">Tony Heng</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
@@ -529,6 +532,9 @@
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script>
+            $(document).ready(function () {
+                scrollProgressBar();
+            });
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 350) {
             $('.navbar').css('box-shadow','0px -6px 44px -17px rgba(120,126,154,0.81)');
