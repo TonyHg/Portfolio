@@ -272,6 +272,9 @@ a:hover{
     letter-spacing: 6px;
     width: 100%
 }
+    #chess .project-title{
+        color: #76839c;
+    }
     #sh42 .project-title{
         color: #207EB7;
     }
