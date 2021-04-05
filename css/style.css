@@ -379,6 +379,11 @@ a:hover{
     left: 60px;
 }
 
+#chess-img{
+    position: relative;
+    left: 100px;
+}
+
 #sh42-img{
     position: relative;
     right: 170px;
