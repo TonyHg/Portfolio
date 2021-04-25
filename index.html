@@ -575,10 +575,12 @@
         <script>
             $(document).ready(function () {
                 scrollProgressBar();
-                document.getElementById("loader").classList.add("active");
+                setTimeout(function(){
+                    document.getElementById("loader").classList.add("active");
+                }, 100);
                 setTimeout(function(){
                     $('body').addClass('loaded');
-                }, 1500);
+                }, 1600);
             });
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 350) {
