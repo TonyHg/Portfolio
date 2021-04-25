@@ -22,6 +22,74 @@ Pink: #CE498A
            url("../asset/font/Rolest.otf") format("opentype");
    }
 
+@font-face {
+    font-family: "Bebas";
+    src: url("../asset/font/BebasNeue-Regular.ttf") format("truetype")
+            url("../asset/font/BebasNeue-Regular.otf") format("opentype");
+}
+
+
+/* Loading */
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaded #loader-wrapper {
+    -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateY(-100%);  /* IE 9 */
+    transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.3s ease-out;
+            transition: all 0.3s 0.3s ease-out;
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
+#loader {
+    z-index: 1001;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Bebas';
+
+    position: relative;
+    background-color: #323F4B;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#loader::before {
+    content: attr(data-title);
+    background-color: teal;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    transition: all 1.2s ease-out;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#loader.active::before {
+    background-color: rgba(6,121,191, 1);
+    width: 100%;
+}
+
 /* Landpage */
 html {
     scroll-behavior: smooth;

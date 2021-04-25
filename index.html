@@ -26,6 +26,10 @@
 
     </head>
     <body>
+        <div id="loader-wrapper">
+            <div id="loader" data-title="TONY.HENG">TONY.HENG</div>
+        </div>
+
         <div class="progress-container fixed-bottom">
             <span class="progress-bar"></span>
         </div>
@@ -571,6 +575,10 @@
         <script>
             $(document).ready(function () {
                 scrollProgressBar();
+                document.getElementById("loader").classList.add("active");
+                setTimeout(function(){
+                    $('body').addClass('loaded');
+                }, 1500);
             });
             $(window).scroll(function () {
             if ($(window).scrollTop() >= 350) {
