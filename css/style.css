@@ -346,11 +346,21 @@ a:hover{
     text-transform: uppercase;
     font-size: 37px;
     letter-spacing: 6px;
-    width: 100%
+    width: 100%;
+    font-family: initial;
 }
+    #ping .project-title{
+        color: #00B397;
+    }
+
+    #epilife .project-title{
+        color: #177BFF;
+    }
+
     #chess .project-title{
         color: #76839c;
     }
+
     #sh42 .project-title{
         color: #207EB7;
     }
@@ -387,6 +397,7 @@ a:hover{
     margin-bottom: 18px;
     font-weight: bold;
     color: #4d4d4d;
+    font-family: initial;
 }
 
 .project-description{
@@ -453,6 +464,20 @@ a:hover{
 #registre-general .project-text, #time-is-monet .project-text, #sh42 .project-text{
     position: relative;
     left: 60px;
+}
+
+#ping-img {
+    width: 600px;
+    left: 75px;
+    position: relative;
+    top: -75px;
+}
+
+#epilife-img {
+    position: relative;
+    width: 550px;
+    top: -30px;
+    right: 70px;
 }
 
 #chess-img{
