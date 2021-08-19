@@ -349,6 +349,10 @@ a:hover{
     width: 100%;
     font-family: initial;
 }
+    #clonestagram .project-title {
+        color: #2B9ADC;
+    }
+    
     #ping .project-title{
         color: #00B397;
     }
@@ -426,6 +430,13 @@ a:hover{
     box-shadow: 0px 20px 20px -12px #74c588a2;
 }
 
+#clonestagram-btn {
+    background-color: #2B9ADC;
+}
+    #clonestagram-btn:hover {
+        box-shadow: 0px 20px 20px -12px #2388c7b2;
+    }
+
 #sh42-btn {
     background-color: #207EB7;
 }
@@ -461,9 +472,16 @@ a:hover{
     top: -40px;
 }
 
-#registre-general .project-text, #time-is-monet .project-text, #sh42 .project-text{
+#registre-general .project-text, #time-is-monet .project-text, #sh42 .project-text, #clonestagram .project-text{
     position: relative;
     left: 60px;
+}
+
+#clonestagram-img {
+    width: 700px;
+    position: relative;
+    right: 100px;
+    top: 20px;
 }
 
 #ping-img {
